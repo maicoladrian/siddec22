@@ -17,7 +17,8 @@
     <ul class="nav">
       <li class="nav-item{{ $activePage == 'dashboard' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('home') }}">
-          <i class="material-icons">dashboard</i>
+          {{-- <i class="material-icons">dashboard</i> --}}
+          <i class="fa fa-home"></i>
             <p>{{ __('Dashboard') }}</p>
         </a>
       </li>
@@ -26,7 +27,8 @@
       <!-- personal - cargos -->
       <li class="nav-item {{ ($activePage == 'cargos' || $activePage == 'personales') ? ' active' : '' }}">
         <a class="nav-link" data-toggle="collapse" href="#personales" aria-expanded="false">
-        <i class="material-icons text-info">person_pin</i>
+        {{-- <i class="material-icons text-info">person_pin</i> --}}
+        <i class="fa fa-user-circle text-info"></i>
           <p>{{ __('Personal') }}
             <b class="caret"></b>
           </p>
@@ -52,7 +54,8 @@
       <!-- horarios - asistencias -->
       <li class="nav-item {{ ($activePage == 'horarios' || $activePage == 'asistencias') ? ' active' : '' }}">
         <a class="nav-link" data-toggle="collapse" href="#asistencias" aria-expanded="false">
-        <i class="material-icons text-warning">event_note</i>
+        {{-- <i class="material-icons text-warning">event_note</i> --}}
+        <i class="fa fa-clipboard-list text-warning"></i>
           <p>{{ __('Asistencias') }}
             <b class="caret"></b>
           </p>
@@ -75,15 +78,13 @@
         </div>
       </li>
 
-      <!-- <li class="nav-item{{ $activePage == 'notifications' ? ' active' : '' }}">
-        <a class="nav-link" href="">
-          <i class="material-icons">notifications</i>
-          <p>{{ __('Notificaciones') }}</p>
-        </a>
-      </li> -->
+     
       <li class="nav-item{{ $activePage == 'cerrar' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
-        <i> <span class="material-icons">logout</span> </i><p>{{ __('Cerrar sesion') }}</p></a>
+        {{-- <i> <span class="material-icons">logout</span> </i> --}}
+        {{-- <i class="fa fa-sign-out"></i> --}}
+        <i> <span class="fa fa-times-circle"></span> </i>
+        <p>{{ __('Cerrar sesion') }}</p></a>
         </a>
       </li>
       

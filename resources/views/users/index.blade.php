@@ -264,7 +264,7 @@
                         </td>
                         <td class="td-actions text-right">
                                                         <a rel="tooltip" class="btn btn-success btn-link" href="#" data-original-title="" title="">
-                              <i class="material-icons">edit</i>
+                              <i class="fa fa-edit"></i>
                               <div class="ripple-container"></div>
                             </a>
                                                     </td>

@@ -21,7 +21,8 @@
               <div class="input-group">
                 <div class="input-group-prepend">
                   <span class="input-group-text">
-                    <i class="material-icons">email</i>
+                    {{-- <i class="material-icons">email</i> --}}
+                    <i class="fa fa-envelope"></i>
                   </span>
                 </div>
                 <input autocomplete="nope" type="email" name="email" class="form-control" placeholder="{{ __('Email...') }}" value="{{ old('email') }}" required>
@@ -36,7 +37,8 @@
               <div class="input-group">
                 <div class="input-group-prepend">
                   <span class="input-group-text">
-                    <i class="material-icons">lock_outline</i>
+                    {{-- <i class="material-icons">lock_outline</i> --}}
+                    <i class="fa fa-lock"></i>
                   </span>
                 </div>
                 <input type="password" name="password" id="password" class="form-control" placeholder="{{ __('Password...') }}" value="{{ !$errors->has('password') ? "" : "" }}" required>

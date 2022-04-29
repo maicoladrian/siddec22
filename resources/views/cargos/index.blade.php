@@ -23,7 +23,7 @@
                             <div class="col-sm-12">
                                 <div class="alert alert-success">
                                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                        <i class="material-icons">close</i>
+                                        <i class="fa fa-times"></i>
                                     </button>
                                     <span>{{ session('status') }}</span>
                                 </div>
@@ -52,15 +52,15 @@
                                         </td>
                                         <td class="td-actions text-right">
                                             <a href="{{ route('cargos.edit', $cargo->id_cargo) }}" class="btn btn-primary btn-sm">
-                                                <i class="material-icons">edit</i>
+                                                <i class="fa fa-edit"></i>
                                             </a>
                                             <form action="{{ route('cargos.destroy', $cargo->id_cargo) }}" method="POST" style="display: inline-block;">
                                                 @csrf
                                                 @method('DELETE')
                                                 @if($cargo->condicion_cargo)
-                                                <button class="btn btn-danger btn-sm" type="submit"><i class="material-icons">delete</i></button>
+                                                <button class="btn btn-danger btn-sm" type="submit"><i class="fa fa-trash"></i></button>
                                                 @else
-                                                <button class="btn btn-success btn-sm" type="submit"><i class="material-icons">check</i></button>
+                                                <button class="btn btn-success btn-sm" type="submit"><i class="fa fa-check"></i></button>
                                                 @endif
                                             </form>
                                         </td>

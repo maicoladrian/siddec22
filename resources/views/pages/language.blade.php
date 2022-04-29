@@ -342,7 +342,7 @@
                             <td>طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن؟</td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="ویرایش وظیفه" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
+                                <i class="fa fa-edit"></i>
                               </button>
                               <button type="button" rel="tooltip" title="حذف" class="btn btn-danger btn-link btn-sm">
                                 <i class="material-icons">close</i>
@@ -363,7 +363,7 @@
                             <td>نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند؟</td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="ویرایش وظیفه" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
+                                <i class="fa fa-edit"></i>
                               </button>
                               <button type="button" rel="tooltip" title="حذف" class="btn btn-danger btn-link btn-sm">
                                 <i class="material-icons">close</i>
@@ -385,7 +385,7 @@
                             </td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="ویرایش وظیفه" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
+                                <i class="fa fa-edit"></i>
                               </button>
                               <button type="button" rel="tooltip" title="حذف" class="btn btn-danger btn-link btn-sm">
                                 <i class="material-icons">close</i>
@@ -406,7 +406,7 @@
                             <td>آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند</td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="ویرایش وظیفه" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
+                                <i class="fa fa-edit"></i>
                               </button>
                               <button type="button" rel="tooltip" title="حذف" class="btn btn-danger btn-link btn-sm">
                                 <i class="material-icons">close</i>
@@ -434,7 +434,7 @@
                             </td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="ویرایش وظیفه" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
+                                <i class="fa fa-edit"></i>
                               </button>
                               <button type="button" rel="tooltip" title="حذف" class="btn btn-danger btn-link btn-sm">
                                 <i class="material-icons">close</i>
@@ -455,7 +455,7 @@
                             <td>اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید؟</td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="ویرایش وظیفه" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
+                                <i class="fa fa-edit"></i>
                               </button>
                               <button type="button" rel="tooltip" title="حذف" class="btn btn-danger btn-link btn-sm">
                                 <i class="material-icons">close</i>
@@ -482,7 +482,7 @@
                             <td>گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی؟</td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="ویرایش وظیفه" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
+                                <i class="fa fa-edit"></i>
                               </button>
                               <button type="button" rel="tooltip" title="حذف" class="btn btn-danger btn-link btn-sm">
                                 <i class="material-icons">close</i>
@@ -504,7 +504,7 @@
                             </td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="ویرایش وظیفه" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
+                                <i class="fa fa-edit"></i>
                               </button>
                               <button type="button" rel="tooltip" title="حذف" class="btn btn-danger btn-link btn-sm">
                                 <i class="material-icons">close</i>
@@ -525,7 +525,7 @@
                             <td>از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند؟</td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="ویرایش وظیفه" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
+                                <i class="fa fa-edit"></i>
                               </button>
                               <button type="button" rel="tooltip" title="حذف" class="btn btn-danger btn-link btn-sm">
                                 <i class="material-icons">close</i>

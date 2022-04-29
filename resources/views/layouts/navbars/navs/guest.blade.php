@@ -18,7 +18,9 @@
         
         <li class="nav-item{{ $activePage == 'login' ? ' active' : '' }}">
           <a href="{{ route('login') }}" class="nav-link">
-            <i class="material-icons">fingerprint</i> {{ __('Ingresar') }}
+            {{-- <i class="material-icons">fingerprint</i>  --}}
+            <i class="fa fa-fingerprint"></i>
+            {{ __('Ingresar') }}
           </a>
         </li>
         

@@ -36,7 +36,8 @@
               <div class="input-group">
                 <div class="input-group-prepend">
                   <span class="input-group-text">
-                    <i class="material-icons">face</i>
+                    <i class="fa fa-user"></i>
+                    {{-- <i class="material-icons">face</i> --}}
                   </span>
                 </div>
                 <input type="text" name="codigo_control" class="form-control" placeholder="{{ __('Codigo de control') }}" value="{{ old('codigo_control') }}" autocomplete="nope" style="text-transform: uppercase;" required autofocus>
@@ -64,7 +65,8 @@
         <div class="col-sm-12">
           <div class="alert alert-{{ (session('status')) == 'El codigo de personal no existe' ? 'danger' : 'success'}}">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <i class="material-icons">close</i>
+              {{-- <i class="material-icons">close</i> --}}
+              <i class="fa fa-times"></i>
             </button>
             <span>{{ session('status') }}</span>
           </div>
